@@ -3,7 +3,8 @@ export const fetchResponse = async (chat) => {
 
         
         // const response = await fetch('http://localhost:3080/', {
-        const response = await fetch('https://gpt-server-amber.vercel.app/', {
+        // const response = await fetch('https://gpt-server-amber.vercel.app/', {
+        const response = await fetch('gpt-server-jqoewus54-gsssamba.vercel.app', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
